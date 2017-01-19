@@ -1,0 +1,12 @@
+hash: 21f397c1ee896977ccdad3486ff740d24522a2967ef41eaa651158595a3b680b
+updated: 2017-01-18T18:08:00.438418039+09:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: 99064174e013895bbd9b025c31100bd1d9b590ca
+- name: github.com/jessevdk/go-flags
+  version: 4e64e4a4e2552194cf594243e23aa9baf3b4297e
+- name: github.com/mattn/go-shellwords
+  version: f4e566c536cf69158e808ec28ef4182a37fdc981
+- name: github.com/pkg/errors
+  version: 248dadf4e9068a0b3e79f02ed0a610d935de5302
+testImports: []
