@@ -1,0 +1,4 @@
+_vendor
+.vendor
+vendor
+cmd/mackerel-csm/mackerel-csm
