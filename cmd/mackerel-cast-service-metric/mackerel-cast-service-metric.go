@@ -24,12 +24,10 @@ func main() {
 	opts := CommandOpts{}
 	if _, err := flags.ParseArgs(&opts, os.Args[1:]); err != nil {
 		log.Fatalf("[Failed] %s", err)
-		os.Exit(1)
 	}
 
 	if err := m.Run(opts.Config); err != nil {
 		log.Fatalf("[Failed] %s", err)
-		os.Exit(1)
 	}
 
 	log.Println("OK")
